@@ -1,0 +1,5 @@
+total claim attempts: 20000, contended experts: 100, max in-flight: 200
+elapsed: 2.70s
+claimed: 100, rejected (lease contention or already assigned): 19900
+active_assignment rows for contended experts after the run: 100 (expected <= 100)
+double-commitments (experts with more than one active row): 0

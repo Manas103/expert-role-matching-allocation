@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.2.1, pluggy-1.6.0 -- /mnt/c/Users/Manas/Downloads/Total Job Application process flow/projects/expert-role-matching-allocation/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/Users/Manas/Downloads/Total Job Application process flow/projects/expert-role-matching-allocation
+configfile: pytest.ini
+plugins: anyio-4.15.1, asyncio-0.23.7
+asyncio: mode=strict
+collecting ... collected 4 items
+
+tests/test_matching.py::test_scarcity_ordering_beats_naive_order_on_toy_case PASSED [ 25%]
+tests/test_matching.py::test_heuristic_close_to_optimal_reference_oracle PASSED [ 50%]
+tests/test_matching.py::test_claim_uniqueness_invariant_under_real_concurrency PASSED [ 75%]
+tests/test_matching.py::test_decide_endpoint_shape PASSED                [100%]
+
+=============================== warnings summary ===============================
+tests/test_matching.py::test_decide_endpoint_shape
+  /mnt/c/Users/Manas/Downloads/Total Job Application process flow/projects/expert-role-matching-allocation/.venv/lib/python3.10/site-packages/starlette/formparsers.py:12: PendingDeprecationWarning: Please use `import python_multipart` instead.
+    import multipart
+
+tests/test_matching.py::test_decide_endpoint_shape
+  /mnt/c/Users/Manas/Downloads/Total Job Application process flow/projects/expert-role-matching-allocation/.venv/lib/python3.10/site-packages/starlette/testclient.py:41: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    [], typing.ContextManager[anyio.abc.BlockingPortal]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 4 passed, 2 warnings in 2.93s =========================

@@ -1,0 +1,4 @@
+machine: AMD Ryzen 7 7800X3D, 8 physical / 16 logical cores, WSL2 Ubuntu 22.04 (capped 12 logical cores)
+requests: 3000, concurrency: 48, elapsed: 3.48s
+p50=42.61ms p95=52.16ms p99=412.06ms
+throughput=861.3 req/sec
